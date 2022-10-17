@@ -10,4 +10,12 @@ def init(a, b):
 
 
 def do_it():
-    return x + y
+    return x / y
+
+
+def do_it_r():
+    return x % y
+
+
+def do_it_w():
+    return x // y
